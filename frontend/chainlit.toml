@@ -1,0 +1,22 @@
+# chainlit.toml
+
+[project]
+name = "Punjabi Artists Chatbot"
+description = "Ask questions about Punjabi artists and get accurate answers from Wikipedia-based data."
+url = "http://localhost:8000"
+
+[ui]
+# Welcome message displayed at the start of the chat
+default_message = """
+Welcome to the Punjabi Artists Chatbot! 
+🤖 Ask me anything about Punjabi artists or related context from Wikipedia.
+"""
+# Placeholder text in the input box
+input_placeholder = "Type your question here..."
+# Theme of the chatbot interface ("light" or "dark")
+theme = "light"
+
+[feedback]
+enable_feedback = true
+buttons = ["👍", "👎", "🤔"]  # Custom feedback buttons
+comment_box = false
