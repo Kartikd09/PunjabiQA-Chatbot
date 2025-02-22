@@ -7,7 +7,7 @@ import os
 from dotenv import load_dotenv
 
 
-file_path = "./cleaned_qa_pairs.xlsx" 
+file_path = "../cleaned_qa_pairs.xlsx" 
 df = pd.read_excel(file_path)
 
 
